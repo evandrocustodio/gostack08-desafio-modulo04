@@ -1,0 +1,30 @@
+body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.topo {
+  width: 1024px;
+  height: 64px;
+  background: #4a90e2;
+  top: 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.topo div img {
+  padding-left: 42px;
+  width: 121px;
+  height: 24px;
+}
+
+.topo strong {
+  width: 100%;
+  text-align: end;
+  padding-right: 74px;
+  font-size: 15px;
+  font-family: Helvetica;
+  color: #ffffff;
+}
