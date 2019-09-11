@@ -1,0 +1,111 @@
+.content {
+  top: -320px;
+  margin-top: 320px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.content .profile {
+  position: absolute;
+  padding: 20px;
+  width: 700px;
+  height: 250px;
+  box-shadow: 0px 0px 10px rgba(122, 114, 114, 0.134);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.content .profile div {
+  width: 700px;
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+  text-align: left;
+}
+
+.content .profile .linha {
+  margin-top: 30px;
+  width: 660px;
+  height: 1px;
+  background: #eeeeee;
+}
+.content .profile .userdetail {
+  display: flex;
+  width: 700px;
+
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.content .profile .userdetail div {
+  height: 60px;
+  padding-left: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.content .profile .userdetail div strong {
+  color: #4a4a4a;
+  font-family: Helvetica;
+  font-size: 14px;
+  font-weight: bold;
+}
+.content .profile .userdetail div small {
+  font-family: Helvetica;
+  font-size: 11px;
+  color: #9a9a9a;
+}
+.content .profile .userdetail img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+
+.content .userResponse {
+  position: absolute;
+  margin-top: 150px;
+  width: 700px;
+}
+
+.content .userResponse .userMessage {
+  display: flex;
+  flex-direction: row;
+}
+.content .userResponse .userMessage img {
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  margin-right: 10px;
+}
+.content .userResponse .userMessage div {
+  border-radius: 5px;
+  padding: 10px;
+  background: #eeeeee;
+}
+
+.content .userResponse .messagem {
+  font-family: Helvetica;
+  text-align: justify;
+  font-style: normal;
+  font-size: 13px;
+  line-height: 20px;
+
+  color: #3e3e3e;
+}
+
+.content .userResponse .messagem strong {
+  font-family: Helvetica;
+  text-align: justify;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 20px;
+
+  color: #3e3e3e;
+}

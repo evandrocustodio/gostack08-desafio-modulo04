@@ -1,12 +1,16 @@
 import React from 'react';
 import './App.css';
-import Topo from './pages/topo/topo'
+import Header from './pages/header/header'
+import Content from './pages/content/content';
 
 function App() {
   return (
     <div className="App">
-        <Topo />
-    </div>
+        <Header />
+        <Content />
+        <Content />
+        <Content />
+        </div>
   );
 }
 
