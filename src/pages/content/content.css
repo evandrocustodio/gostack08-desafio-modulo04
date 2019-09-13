@@ -1,18 +1,18 @@
 .content {
-  top: -320px;
-  margin-top: 320px;
+  margin-top: 20px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
+  box-shadow: 0px 0px 10px rgba(122, 114, 114, 0.134);
+  border-radius: 5px;
+  padding: 20px;
+  width: 700px;
+  /*height: 250px; */
 }
 
 .content .profile {
-  position: absolute;
-  padding: 20px;
   width: 700px;
-  height: 250px;
-  box-shadow: 0px 0px 10px rgba(122, 114, 114, 0.134);
-  border-radius: 5px;
+  height: 50px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -28,11 +28,11 @@
   text-align: left;
 }
 
-.content .profile .linha {
-  margin-top: 30px;
-  width: 660px;
+.content .linha {
+  margin-top: 60px;
+  width: 100%;
   height: 1px;
-  background: #eeeeee;
+  background: #9a9a9a;
 }
 .content .profile .userdetail {
   display: flex;
@@ -66,40 +66,38 @@
   height: 32px;
   border-radius: 50%;
 }
-
 .content .userResponse {
-  position: absolute;
-  margin-top: 150px;
-  width: 700px;
+  margin-top: 20px;
 }
 
 .content .userResponse .userMessage {
   display: flex;
   flex-direction: row;
-}
-.content .userResponse .userMessage img {
-  border-radius: 50%;
-  width: 35px;
-  height: 35px;
-  margin-right: 10px;
-}
-.content .userResponse .userMessage div {
-  border-radius: 5px;
-  padding: 10px;
-  background: #eeeeee;
+  margin-left: 20px;
+  margin-top: 10px;
 }
 
-.content .userResponse .messagem {
+.content .userResponse .userMessage img {
+  margin-right: 20px;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+
+.content .userResponse .userMessage .messagem {
   font-family: Helvetica;
   text-align: justify;
   font-style: normal;
   font-size: 13px;
   line-height: 20px;
+  border-radius: 5px;
+  padding: 15px;
 
+  background: #d8d8d8;
   color: #3e3e3e;
 }
 
-.content .userResponse .messagem strong {
+.content .userResponse .userMessage .messagem strong {
   font-family: Helvetica;
   text-align: justify;
   font-style: normal;
